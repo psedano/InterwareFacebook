@@ -1,0 +1,830 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		57B38F1B5FEA5162DBE07BC8 /* Pods_InterwareFacebookTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7FFBFAF4BFC5D411D06B24C3 /* Pods_InterwareFacebookTests.framework */; };
+		CA15FA271D3D2BA600E1C68E /* Post.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA15FA261D3D2BA600E1C68E /* Post.swift */; };
+		CA2A137B1D37E3F00042BBC8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA2A137A1D37E3F00042BBC8 /* AppDelegate.swift */; };
+		CA2A137D1D37E3F00042BBC8 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA2A137C1D37E3F00042BBC8 /* ViewController.swift */; };
+		CA2A13801D37E3F00042BBC8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CA2A137E1D37E3F00042BBC8 /* Main.storyboard */; };
+		CA2A13821D37E3F00042BBC8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CA2A13811D37E3F00042BBC8 /* Assets.xcassets */; };
+		CA2A13851D37E3F00042BBC8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CA2A13831D37E3F00042BBC8 /* LaunchScreen.storyboard */; };
+		CA2A13901D37E3F00042BBC8 /* InterwareFacebookTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA2A138F1D37E3F00042BBC8 /* InterwareFacebookTests.swift */; };
+		CA2A139B1D37E3F00042BBC8 /* InterwareFacebookUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA2A139A1D37E3F00042BBC8 /* InterwareFacebookUITests.swift */; };
+		CA2A13B91D37F5F80042BBC8 /* MaterialTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA2A13B81D37F5F80042BBC8 /* MaterialTextField.swift */; };
+		CA2A13BC1D37F7770042BBC8 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA2A13BB1D37F7770042BBC8 /* Constants.swift */; };
+		CA2A13BF1D3803720042BBC8 /* FBSDKCoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CA2A13BD1D3803720042BBC8 /* FBSDKCoreKit.framework */; };
+		CA2A13C01D3803720042BBC8 /* FBSDKLoginKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CA2A13BE1D3803720042BBC8 /* FBSDKLoginKit.framework */; };
+		CA2A13C21D3803880042BBC8 /* Bolts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CA2A13C11D3803880042BBC8 /* Bolts.framework */; };
+		CA5301201D3EAE1A00B225B5 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = CA53011F1D3EAE1A00B225B5 /* GoogleService-Info.plist */; };
+		CAB21FBA61AC332F31326545 /* Pods_InterwareFacebook.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C899C69351D337D311B9B3DE /* Pods_InterwareFacebook.framework */; };
+		CAD971121D3EC5CE007A556C /* Fabric.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CAD971101D3EC5CE007A556C /* Fabric.framework */; };
+		CAD971131D3EC5CE007A556C /* Crashlytics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CAD971111D3EC5CE007A556C /* Crashlytics.framework */; };
+		CAD971151D3ECF46007A556C /* LocalAuthentication.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CAD971141D3ECF46007A556C /* LocalAuthentication.framework */; };
+		CAFD85561D392E7C00D714D5 /* MaterialButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAFD85551D392E7C00D714D5 /* MaterialButton.swift */; };
+		CAFD855A1D3931FF00D714D5 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAFD85591D3931FF00D714D5 /* MainViewController.swift */; };
+		CAFD855C1D3932F000D714D5 /* MaterialView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAFD855B1D3932F000D714D5 /* MaterialView.swift */; };
+		CAFD855E1D393B3F00D714D5 /* PostTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAFD855D1D393B3F00D714D5 /* PostTableViewCell.swift */; };
+		F98AF89190566CC3AE4DC88A /* Pods_InterwareFacebookUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CACDAC0E34F3B509B9259840 /* Pods_InterwareFacebookUITests.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CA2A138C1D37E3F00042BBC8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CA2A136F1D37E3F00042BBC8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CA2A13761D37E3F00042BBC8;
+			remoteInfo = InterwareFacebook;
+		};
+		CA2A13971D37E3F00042BBC8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CA2A136F1D37E3F00042BBC8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CA2A13761D37E3F00042BBC8;
+			remoteInfo = InterwareFacebook;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		4CD3C3BC47B18483C2FCFE97 /* Pods-InterwareFacebookUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-InterwareFacebookUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-InterwareFacebookUITests/Pods-InterwareFacebookUITests.release.xcconfig"; sourceTree = "<group>"; };
+		7FFBFAF4BFC5D411D06B24C3 /* Pods_InterwareFacebookTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_InterwareFacebookTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		88249B3E037C3050D995BD3F /* Pods-InterwareFacebook.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-InterwareFacebook.release.xcconfig"; path = "Pods/Target Support Files/Pods-InterwareFacebook/Pods-InterwareFacebook.release.xcconfig"; sourceTree = "<group>"; };
+		C899C69351D337D311B9B3DE /* Pods_InterwareFacebook.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_InterwareFacebook.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		CA15FA261D3D2BA600E1C68E /* Post.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Post.swift; sourceTree = "<group>"; };
+		CA2A13771D37E3F00042BBC8 /* InterwareFacebook.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = InterwareFacebook.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CA2A137A1D37E3F00042BBC8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		CA2A137C1D37E3F00042BBC8 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		CA2A137F1D37E3F00042BBC8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		CA2A13811D37E3F00042BBC8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CA2A13841D37E3F00042BBC8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		CA2A13861D37E3F00042BBC8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CA2A138B1D37E3F00042BBC8 /* InterwareFacebookTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = InterwareFacebookTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CA2A138F1D37E3F00042BBC8 /* InterwareFacebookTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InterwareFacebookTests.swift; sourceTree = "<group>"; };
+		CA2A13911D37E3F00042BBC8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CA2A13961D37E3F00042BBC8 /* InterwareFacebookUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = InterwareFacebookUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CA2A139A1D37E3F00042BBC8 /* InterwareFacebookUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InterwareFacebookUITests.swift; sourceTree = "<group>"; };
+		CA2A139C1D37E3F00042BBC8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CA2A13B81D37F5F80042BBC8 /* MaterialTextField.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MaterialTextField.swift; sourceTree = "<group>"; };
+		CA2A13BB1D37F7770042BBC8 /* Constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		CA2A13BD1D3803720042BBC8 /* FBSDKCoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FBSDKCoreKit.framework; sourceTree = "<group>"; };
+		CA2A13BE1D3803720042BBC8 /* FBSDKLoginKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FBSDKLoginKit.framework; sourceTree = "<group>"; };
+		CA2A13C11D3803880042BBC8 /* Bolts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Bolts.framework; sourceTree = "<group>"; };
+		CA53011F1D3EAE1A00B225B5 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		CA5301211D3EAF4000B225B5 /* InterwareFacebook-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "InterwareFacebook-Bridging-Header.h"; sourceTree = "<group>"; };
+		CACDAC0E34F3B509B9259840 /* Pods_InterwareFacebookUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_InterwareFacebookUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		CAD971101D3EC5CE007A556C /* Fabric.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Fabric.framework; sourceTree = "<group>"; };
+		CAD971111D3EC5CE007A556C /* Crashlytics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Crashlytics.framework; sourceTree = "<group>"; };
+		CAD971141D3ECF46007A556C /* LocalAuthentication.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = LocalAuthentication.framework; path = System/Library/Frameworks/LocalAuthentication.framework; sourceTree = SDKROOT; };
+		CAFD85551D392E7C00D714D5 /* MaterialButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MaterialButton.swift; sourceTree = "<group>"; };
+		CAFD85591D3931FF00D714D5 /* MainViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		CAFD855B1D3932F000D714D5 /* MaterialView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MaterialView.swift; sourceTree = "<group>"; };
+		CAFD855D1D393B3F00D714D5 /* PostTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PostTableViewCell.swift; sourceTree = "<group>"; };
+		CDD7D9B33EBF41E5670E3BA2 /* Pods-InterwareFacebookTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-InterwareFacebookTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-InterwareFacebookTests/Pods-InterwareFacebookTests.debug.xcconfig"; sourceTree = "<group>"; };
+		ED78E6122A7A8FCFF42ADD63 /* Pods-InterwareFacebookTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-InterwareFacebookTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-InterwareFacebookTests/Pods-InterwareFacebookTests.release.xcconfig"; sourceTree = "<group>"; };
+		F79973025CD35BB48CA5845B /* Pods-InterwareFacebookUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-InterwareFacebookUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-InterwareFacebookUITests/Pods-InterwareFacebookUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		FAF0776CB773930A2F6E0F1E /* Pods-InterwareFacebook.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-InterwareFacebook.debug.xcconfig"; path = "Pods/Target Support Files/Pods-InterwareFacebook/Pods-InterwareFacebook.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CA2A13741D37E3F00042BBC8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CAD971151D3ECF46007A556C /* LocalAuthentication.framework in Frameworks */,
+				CAB21FBA61AC332F31326545 /* Pods_InterwareFacebook.framework in Frameworks */,
+				CAD971121D3EC5CE007A556C /* Fabric.framework in Frameworks */,
+				CA2A13BF1D3803720042BBC8 /* FBSDKCoreKit.framework in Frameworks */,
+				CA2A13C01D3803720042BBC8 /* FBSDKLoginKit.framework in Frameworks */,
+				CAD971131D3EC5CE007A556C /* Crashlytics.framework in Frameworks */,
+				CA2A13C21D3803880042BBC8 /* Bolts.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CA2A13881D37E3F00042BBC8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				57B38F1B5FEA5162DBE07BC8 /* Pods_InterwareFacebookTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CA2A13931D37E3F00042BBC8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F98AF89190566CC3AE4DC88A /* Pods_InterwareFacebookUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		00B6D1306467396D933BB313 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CAD971141D3ECF46007A556C /* LocalAuthentication.framework */,
+				C899C69351D337D311B9B3DE /* Pods_InterwareFacebook.framework */,
+				7FFBFAF4BFC5D411D06B24C3 /* Pods_InterwareFacebookTests.framework */,
+				CACDAC0E34F3B509B9259840 /* Pods_InterwareFacebookUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		0BBB1E09E15B7879C160D34E /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				FAF0776CB773930A2F6E0F1E /* Pods-InterwareFacebook.debug.xcconfig */,
+				88249B3E037C3050D995BD3F /* Pods-InterwareFacebook.release.xcconfig */,
+				CDD7D9B33EBF41E5670E3BA2 /* Pods-InterwareFacebookTests.debug.xcconfig */,
+				ED78E6122A7A8FCFF42ADD63 /* Pods-InterwareFacebookTests.release.xcconfig */,
+				F79973025CD35BB48CA5845B /* Pods-InterwareFacebookUITests.debug.xcconfig */,
+				4CD3C3BC47B18483C2FCFE97 /* Pods-InterwareFacebookUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		CA2A136E1D37E3F00042BBC8 = {
+			isa = PBXGroup;
+			children = (
+				CA2A13791D37E3F00042BBC8 /* InterwareFacebook */,
+				CA2A138E1D37E3F00042BBC8 /* InterwareFacebookTests */,
+				CA2A13991D37E3F00042BBC8 /* InterwareFacebookUITests */,
+				CA2A13781D37E3F00042BBC8 /* Products */,
+				0BBB1E09E15B7879C160D34E /* Pods */,
+				00B6D1306467396D933BB313 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		CA2A13781D37E3F00042BBC8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CA2A13771D37E3F00042BBC8 /* InterwareFacebook.app */,
+				CA2A138B1D37E3F00042BBC8 /* InterwareFacebookTests.xctest */,
+				CA2A13961D37E3F00042BBC8 /* InterwareFacebookUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CA2A13791D37E3F00042BBC8 /* InterwareFacebook */ = {
+			isa = PBXGroup;
+			children = (
+				CAD971101D3EC5CE007A556C /* Fabric.framework */,
+				CAD971111D3EC5CE007A556C /* Crashlytics.framework */,
+				CA2A13BA1D37F7660042BBC8 /* Util */,
+				CA2A13AB1D37E4430042BBC8 /* Frameworks */,
+				CA2A13AA1D37E4050042BBC8 /* Controller */,
+				CA2A13A91D37E4000042BBC8 /* View */,
+				CA2A13A81D37E3FC0042BBC8 /* Model */,
+				CA2A137A1D37E3F00042BBC8 /* AppDelegate.swift */,
+				CA2A137E1D37E3F00042BBC8 /* Main.storyboard */,
+				CA2A13811D37E3F00042BBC8 /* Assets.xcassets */,
+				CA2A13831D37E3F00042BBC8 /* LaunchScreen.storyboard */,
+				CA53011F1D3EAE1A00B225B5 /* GoogleService-Info.plist */,
+				CA2A13861D37E3F00042BBC8 /* Info.plist */,
+				CA5301211D3EAF4000B225B5 /* InterwareFacebook-Bridging-Header.h */,
+			);
+			path = InterwareFacebook;
+			sourceTree = "<group>";
+		};
+		CA2A138E1D37E3F00042BBC8 /* InterwareFacebookTests */ = {
+			isa = PBXGroup;
+			children = (
+				CA2A138F1D37E3F00042BBC8 /* InterwareFacebookTests.swift */,
+				CA2A13911D37E3F00042BBC8 /* Info.plist */,
+			);
+			path = InterwareFacebookTests;
+			sourceTree = "<group>";
+		};
+		CA2A13991D37E3F00042BBC8 /* InterwareFacebookUITests */ = {
+			isa = PBXGroup;
+			children = (
+				CA2A139A1D37E3F00042BBC8 /* InterwareFacebookUITests.swift */,
+				CA2A139C1D37E3F00042BBC8 /* Info.plist */,
+			);
+			path = InterwareFacebookUITests;
+			sourceTree = "<group>";
+		};
+		CA2A13A81D37E3FC0042BBC8 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				CA15FA261D3D2BA600E1C68E /* Post.swift */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		CA2A13A91D37E4000042BBC8 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				CA2A13B81D37F5F80042BBC8 /* MaterialTextField.swift */,
+				CAFD85551D392E7C00D714D5 /* MaterialButton.swift */,
+				CAFD855B1D3932F000D714D5 /* MaterialView.swift */,
+				CAFD855D1D393B3F00D714D5 /* PostTableViewCell.swift */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		CA2A13AA1D37E4050042BBC8 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				CA2A137C1D37E3F00042BBC8 /* ViewController.swift */,
+				CAFD85591D3931FF00D714D5 /* MainViewController.swift */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		CA2A13AB1D37E4430042BBC8 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CA2A13C11D3803880042BBC8 /* Bolts.framework */,
+				CA2A13BD1D3803720042BBC8 /* FBSDKCoreKit.framework */,
+				CA2A13BE1D3803720042BBC8 /* FBSDKLoginKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CA2A13BA1D37F7660042BBC8 /* Util */ = {
+			isa = PBXGroup;
+			children = (
+				CA2A13BB1D37F7770042BBC8 /* Constants.swift */,
+			);
+			name = Util;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CA2A13761D37E3F00042BBC8 /* InterwareFacebook */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CA2A139F1D37E3F00042BBC8 /* Build configuration list for PBXNativeTarget "InterwareFacebook" */;
+			buildPhases = (
+				27625CF89DB8917633B4C653 /* [CP] Check Pods Manifest.lock */,
+				CA2A13731D37E3F00042BBC8 /* Sources */,
+				CA2A13741D37E3F00042BBC8 /* Frameworks */,
+				CA2A13751D37E3F00042BBC8 /* Resources */,
+				2A5C656CAC8F7D8ECB7F8292 /* [CP] Embed Pods Frameworks */,
+				D4CEC15DB3D674C5A9C0EA92 /* [CP] Copy Pods Resources */,
+				CAD9710F1D3EC5AF007A556C /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = InterwareFacebook;
+			productName = InterwareFacebook;
+			productReference = CA2A13771D37E3F00042BBC8 /* InterwareFacebook.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CA2A138A1D37E3F00042BBC8 /* InterwareFacebookTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CA2A13A21D37E3F00042BBC8 /* Build configuration list for PBXNativeTarget "InterwareFacebookTests" */;
+			buildPhases = (
+				A3F4BC4535ED93D3BE08334B /* [CP] Check Pods Manifest.lock */,
+				CA2A13871D37E3F00042BBC8 /* Sources */,
+				CA2A13881D37E3F00042BBC8 /* Frameworks */,
+				CA2A13891D37E3F00042BBC8 /* Resources */,
+				3CEAC4E7340BDBAB58782588 /* [CP] Embed Pods Frameworks */,
+				E0F60A35080BFA075A505135 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CA2A138D1D37E3F00042BBC8 /* PBXTargetDependency */,
+			);
+			name = InterwareFacebookTests;
+			productName = InterwareFacebookTests;
+			productReference = CA2A138B1D37E3F00042BBC8 /* InterwareFacebookTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		CA2A13951D37E3F00042BBC8 /* InterwareFacebookUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CA2A13A51D37E3F00042BBC8 /* Build configuration list for PBXNativeTarget "InterwareFacebookUITests" */;
+			buildPhases = (
+				9E16F6C722BC27CE2401104D /* [CP] Check Pods Manifest.lock */,
+				CA2A13921D37E3F00042BBC8 /* Sources */,
+				CA2A13931D37E3F00042BBC8 /* Frameworks */,
+				CA2A13941D37E3F00042BBC8 /* Resources */,
+				40F8B5AAD00E698D1D8C9586 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CA2A13981D37E3F00042BBC8 /* PBXTargetDependency */,
+			);
+			name = InterwareFacebookUITests;
+			productName = InterwareFacebookUITests;
+			productReference = CA2A13961D37E3F00042BBC8 /* InterwareFacebookUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CA2A136F1D37E3F00042BBC8 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "Pablo Sedano";
+				TargetAttributes = {
+					CA2A13761D37E3F00042BBC8 = {
+						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = QQQ2DM4LE2;
+						SystemCapabilities = {
+							com.apple.BackgroundModes = {
+								enabled = 1;
+							};
+							com.apple.Push = {
+								enabled = 1;
+							};
+						};
+					};
+					CA2A138A1D37E3F00042BBC8 = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = CA2A13761D37E3F00042BBC8;
+					};
+					CA2A13951D37E3F00042BBC8 = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = CA2A13761D37E3F00042BBC8;
+					};
+				};
+			};
+			buildConfigurationList = CA2A13721D37E3F00042BBC8 /* Build configuration list for PBXProject "InterwareFacebook" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CA2A136E1D37E3F00042BBC8;
+			productRefGroup = CA2A13781D37E3F00042BBC8 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CA2A13761D37E3F00042BBC8 /* InterwareFacebook */,
+				CA2A138A1D37E3F00042BBC8 /* InterwareFacebookTests */,
+				CA2A13951D37E3F00042BBC8 /* InterwareFacebookUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CA2A13751D37E3F00042BBC8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CA5301201D3EAE1A00B225B5 /* GoogleService-Info.plist in Resources */,
+				CA2A13851D37E3F00042BBC8 /* LaunchScreen.storyboard in Resources */,
+				CA2A13821D37E3F00042BBC8 /* Assets.xcassets in Resources */,
+				CA2A13801D37E3F00042BBC8 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CA2A13891D37E3F00042BBC8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CA2A13941D37E3F00042BBC8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		27625CF89DB8917633B4C653 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		2A5C656CAC8F7D8ECB7F8292 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-InterwareFacebook/Pods-InterwareFacebook-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		3CEAC4E7340BDBAB58782588 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-InterwareFacebookTests/Pods-InterwareFacebookTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		40F8B5AAD00E698D1D8C9586 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-InterwareFacebookUITests/Pods-InterwareFacebookUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9E16F6C722BC27CE2401104D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		A3F4BC4535ED93D3BE08334B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		CAD9710F1D3EC5AF007A556C /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "./Fabric.framework/run 97228c34327e77776525c812c5f1dee2d03102d7 35f85ff9f61d2743fedabc223b2fd664d12387fedf4a2c0907dbef68bc8ad536";
+		};
+		D4CEC15DB3D674C5A9C0EA92 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-InterwareFacebook/Pods-InterwareFacebook-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E0F60A35080BFA075A505135 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-InterwareFacebookTests/Pods-InterwareFacebookTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CA2A13731D37E3F00042BBC8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CAFD855A1D3931FF00D714D5 /* MainViewController.swift in Sources */,
+				CA2A13B91D37F5F80042BBC8 /* MaterialTextField.swift in Sources */,
+				CA2A137D1D37E3F00042BBC8 /* ViewController.swift in Sources */,
+				CAFD855E1D393B3F00D714D5 /* PostTableViewCell.swift in Sources */,
+				CA2A137B1D37E3F00042BBC8 /* AppDelegate.swift in Sources */,
+				CA2A13BC1D37F7770042BBC8 /* Constants.swift in Sources */,
+				CA15FA271D3D2BA600E1C68E /* Post.swift in Sources */,
+				CAFD855C1D3932F000D714D5 /* MaterialView.swift in Sources */,
+				CAFD85561D392E7C00D714D5 /* MaterialButton.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CA2A13871D37E3F00042BBC8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CA2A13901D37E3F00042BBC8 /* InterwareFacebookTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CA2A13921D37E3F00042BBC8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CA2A139B1D37E3F00042BBC8 /* InterwareFacebookUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CA2A138D1D37E3F00042BBC8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CA2A13761D37E3F00042BBC8 /* InterwareFacebook */;
+			targetProxy = CA2A138C1D37E3F00042BBC8 /* PBXContainerItemProxy */;
+		};
+		CA2A13981D37E3F00042BBC8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CA2A13761D37E3F00042BBC8 /* InterwareFacebook */;
+			targetProxy = CA2A13971D37E3F00042BBC8 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		CA2A137E1D37E3F00042BBC8 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CA2A137F1D37E3F00042BBC8 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		CA2A13831D37E3F00042BBC8 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CA2A13841D37E3F00042BBC8 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CA2A139D1D37E3F00042BBC8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer: Pablo Rivera Sedano (V342YVTK34)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Pablo Rivera Sedano (V342YVTK34)";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		CA2A139E1D37E3F00042BBC8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CA2A13A01D37E3F00042BBC8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FAF0776CB773930A2F6E0F1E /* Pods-InterwareFacebook.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/InterwareFacebook",
+				);
+				INFOPLIST_FILE = InterwareFacebook/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Interware.InterwareFacebook;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				SWIFT_OBJC_BRIDGING_HEADER = "InterwareFacebook/InterwareFacebook-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		CA2A13A11D37E3F00042BBC8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 88249B3E037C3050D995BD3F /* Pods-InterwareFacebook.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/InterwareFacebook",
+				);
+				INFOPLIST_FILE = InterwareFacebook/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Interware.InterwareFacebook;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				SWIFT_OBJC_BRIDGING_HEADER = "InterwareFacebook/InterwareFacebook-Bridging-Header.h";
+			};
+			name = Release;
+		};
+		CA2A13A31D37E3F00042BBC8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CDD7D9B33EBF41E5670E3BA2 /* Pods-InterwareFacebookTests.debug.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = InterwareFacebookTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = MGI.InterwareFacebookTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/InterwareFacebook.app/InterwareFacebook";
+			};
+			name = Debug;
+		};
+		CA2A13A41D37E3F00042BBC8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = ED78E6122A7A8FCFF42ADD63 /* Pods-InterwareFacebookTests.release.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = InterwareFacebookTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = MGI.InterwareFacebookTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/InterwareFacebook.app/InterwareFacebook";
+			};
+			name = Release;
+		};
+		CA2A13A61D37E3F00042BBC8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F79973025CD35BB48CA5845B /* Pods-InterwareFacebookUITests.debug.xcconfig */;
+			buildSettings = {
+				INFOPLIST_FILE = InterwareFacebookUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = MGI.InterwareFacebookUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = InterwareFacebook;
+			};
+			name = Debug;
+		};
+		CA2A13A71D37E3F00042BBC8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4CD3C3BC47B18483C2FCFE97 /* Pods-InterwareFacebookUITests.release.xcconfig */;
+			buildSettings = {
+				INFOPLIST_FILE = InterwareFacebookUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = MGI.InterwareFacebookUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = InterwareFacebook;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CA2A13721D37E3F00042BBC8 /* Build configuration list for PBXProject "InterwareFacebook" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CA2A139D1D37E3F00042BBC8 /* Debug */,
+				CA2A139E1D37E3F00042BBC8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CA2A139F1D37E3F00042BBC8 /* Build configuration list for PBXNativeTarget "InterwareFacebook" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CA2A13A01D37E3F00042BBC8 /* Debug */,
+				CA2A13A11D37E3F00042BBC8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CA2A13A21D37E3F00042BBC8 /* Build configuration list for PBXNativeTarget "InterwareFacebookTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CA2A13A31D37E3F00042BBC8 /* Debug */,
+				CA2A13A41D37E3F00042BBC8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CA2A13A51D37E3F00042BBC8 /* Build configuration list for PBXNativeTarget "InterwareFacebookUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CA2A13A61D37E3F00042BBC8 /* Debug */,
+				CA2A13A71D37E3F00042BBC8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CA2A136F1D37E3F00042BBC8 /* Project object */;
+}
